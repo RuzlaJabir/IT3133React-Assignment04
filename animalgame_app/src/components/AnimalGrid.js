@@ -1,4 +1,5 @@
 import React from "react";
+import '../assets/css/compo.css';
 
 const AnimalGrid = ({ animals, onAnimalClick }) => {
   return (

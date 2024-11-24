@@ -1,0 +1,46 @@
+
+  
+  .header {
+    font-size: 2rem;
+    margin: 20px 0;
+  }
+  
+  .animal-name {
+    font-size: 1.5rem;
+    margin: 20px;
+  }
+  
+  .animal-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  .animal-image {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: transform 0.3s, border-color 0.3s;
+  }
+  
+  .animal-image:hover {
+    transform: scale(1.1);
+    border-color: #333;
+  }
+  
+  .result {
+    font-size: 2rem;
+    margin: 20px;
+  }
+  
+  .result.win {
+    color: rgb(245, 163, 23);
+  }
+  
+  .result.lose {
+    color: rgb(245, 163, 23);
+  }
+  
